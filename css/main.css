@@ -1,0 +1,371 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline
+}
+html{
+    line-height:1
+}
+ol,ul{
+    list-style:none
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+caption,th,td{
+    text-align:left;
+    font-weight:normal;
+    vertical-align:middle
+}
+q,blockquote{
+    quotes:none
+}
+q:before,q:after,blockquote:before,blockquote:after{
+    content:"";
+    content:none
+}
+a img{
+    border:none
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
+    display:block
+}
+html,button,input,select,textarea{
+    color:#222
+}
+html{
+    font:100% "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    line-height:1.4
+}
+::-moz-selection{
+    background:#b3d4fc;
+    text-shadow:none
+}
+::selection{
+    background:#b3d4fc;
+    text-shadow:none
+}
+hr{
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0
+}
+
+audio,canvas,img,video{
+    vertical-align:middle
+}
+
+fieldset{
+    border:0;
+    margin:0;
+    padding:0
+}
+textarea{
+    resize:vertical
+}
+.browsehappy{
+    margin:0px 0px 10px 0px;
+    padding:0.5em 0em;
+    background:#aac739;
+    color:#4f4f4f;
+    text-align:center
+}
+body{
+    background:#fff;
+    color:#000
+}
+.dialpad .number{
+    position:relative;
+    z-index:2;
+    padding:15px 20px;
+    color:#4d4d4d;
+    font-weight:300;
+    font-size:40px;
+    background:#fff;
+    height:78px
+}
+.dialpad .dials{
+    margin:-1px 0 0 -1px;
+    background:#1d1918;
+    cursor:pointer
+}
+.dialpad .dials:before,.dialpad .dials:after{
+    content:"\0020";
+    display:block;
+    height:0;
+    overflow:hidden
+}
+.dialpad .dials:after{
+    clear:both
+}
+.dialpad .dials .digits{
+    float:left;
+    width:33.33%
+}
+.dialpad .dials .digits p{
+    font-weight:600;
+    padding:15px 25px;
+    border-top:1px solid #4d4d4d;
+    border-right:1px solid #000;
+    border-bottom:1px solid #000;
+    border-left:1px solid #4d4d4d
+}
+.dialpad .dials .digits p strong{
+    font-size:50px;
+    margin-right:8px;
+    color:#fff
+}
+.dialpad .dials .digits:active{
+    background:#00caf2;
+    border-top-color:#b2f2ff
+}
+.compact .dials .digits p{
+    padding:25px 15px
+}
+.compact .dials .digits p strong{
+    font-size:30px
+}
+.compact .dials .digits p sup{
+    text-transform:uppercase;
+    color:#c1c1c1
+}
+.compact .dials .pad-action{
+    background:#093
+}
+.compact .dials .pad-action:active{
+    background:#0c3
+}
+.ir{
+    background-color:transparent;
+    border:0;
+    overflow:hidden;
+    *text-indent:-9999px
+}
+.ir:before{
+    content:"";
+    display:block;
+    width:0;
+    height:150%
+}
+.hidden{
+    display:none !important;
+    visibility:hidden
+}
+.visuallyhidden{
+    border:0;
+    clip:rect(0 0 0 0);
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    width:1px
+}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{
+    clip:auto;
+    height:auto;
+    margin:0;
+    overflow:visible;
+    position:static;
+    width:auto
+}
+.invisible{
+    visibility:hidden
+}
+.clearfix:before,.clearfix:after{
+    content:" ";
+    display:table
+}
+.clearfix:after{
+    clear:both
+}
+.clearfix{
+    *zoom:1
+}
+
+.boxman {
+    border-style: solid;
+    border-width: medium;
+    width: 25%;
+  }
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.float-child-right {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: 2px solid black;
+}
+/* Modal section */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    float: left;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 50%; 
+    float:right;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+
+  .modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: -1;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    float: left;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+  }
+  
+  /* Modal Content */
+  .modal-content1 {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 50%; 
+    float:left;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+
+  /* End of modal section */
+  /* Phone Modal */
+  
+  .mobile-phone {
+    margin: auto;
+    margin-top: 170px;
+    padding: 10px 10px 30px;
+    width: 350px;
+    height: 600px;
+    box-shadow: 0 0 20px #e2e2e2;
+    border-radius: 30px;
+  }
+  
+  .screen {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    border-radius: 30px;
+    overflow-y: auto;
+  }
+  
+  .brove {
+    width: 150px;
+    height: 20px;
+    background:blue;
+    position: absolute;
+    margin: 0 100px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .speaker {
+    width: 60px;
+    height: 5px;
+    background: #522424;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+  }
+  
+  /* End modal */
